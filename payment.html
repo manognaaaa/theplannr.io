@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon"href="assets/img/logo.svg">
+    <title>Payment</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+   <div class="pay-container">
+       <form action="" style="align-items: center;">
+           <h1>Payment Gateway</h1>
+           <div>
+                <input type="text" id="fname" placeholder="Full name" name="firstname"><br><br>
+                <input type="text" id="email" placeholder="Email id" name="email"><br><br>
+                <input type="text" id="adr" placeholder="Address" name="address"><br><br>
+           </div>
+           <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <div>
+                <input type="text" id="cname" placeholder="Name on card" name="cardname"><br><br>
+                <input type="text" id="ccnum" placeholder="Card number" name="cardnumber"><br><br>
+                <input type="text" id="exp" placeholder="Expiry MM/YYYY" name="exp"><br><br>
+                <input type="text" id="cvv" placeholder="CVV" name="cvv">
+            </div>
+        <input type="submit" name="pay" value="PAY">
+       </form>
+   </div>  
+</body>
+
+</html>
