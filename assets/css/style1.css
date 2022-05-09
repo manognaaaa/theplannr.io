@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.login-container{
+    width: 25%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.reg-container{
+    width: 25%;
+    height: 55%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px 20px;
+}
+.pay-container{
+    width: 25%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background: #000;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.login-container h1{
+    text-align: center;
+    font-size: 20px;
+}
+.reg-container h1{
+    text-align: center;
+    font-size: 20px;
+}
+.pay-container h1{
+    text-align: center;
+    font-size: 20px;
+}
+
+.login-container label{
+    display: block;
+}
+.reg-container label{
+    display: block;
+}
+.pay-container label{
+    display: block;
+}
+
+.login-container div{
+    margin-bottom: 20px;
+}
+.reg-container div{
+    margin-bottom: 20px;
+}
+.pay-container div{
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"], input[type="password"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    color: #ffff;
+    height: 40px;
+}
+.reg-container input[type="text"], input[type="password"], input[type="number"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    color: #ffff;
+    height: 40px;
+}
+.pay-container input[type="text"], input[type="password"], input[type="number"],input[type="checkbox"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffff;
+    background: transparent;
+    color: #ffff;
+    height: 40px;
+}
+
+.login-container input[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right,#201f1f,#575151);
+    color: #ffff;
+    
+}
+.reg-container input[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right,#201f1f,#575151);
+    color: #ffff;
+}
+.pay-container input[type="submit"]{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-image: linear-gradient(to right,#201f1f,#575151);
+    color: #ffff;
+}
+
+.login-container input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #696969;
+}
+
+.reg-container input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #696969;
+}
+.pay-container input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 10px #696969;
+}
+
+a{
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+a:hover{
+    color: #d3d3d3;
+    
+}
