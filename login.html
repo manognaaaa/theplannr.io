@@ -8,7 +8,7 @@
 
 <body style="background-image: url('assets/img/title.svg');">
    <div class="login-container">
-       <form action="">
+       <form name="login" action="planloggedin.html" onsubmit="return validateform()" method="post" required>
            <h1>LOGIN</h1>
            <div>
                <input type="text" name="username" placeholder="Username" value="">
@@ -20,5 +20,29 @@
            <a href="#">Forgot Password?</a>
        </form>
    </div>  
+
+   <script>
+       function validateform()
+       {
+            var x=document.forms["login"]["username"].value;
+            var y=document.forms["login"]["password"].value;
+            if((x==""||x==null)&&(y==""||y==null))
+            {
+                alert("You must enter your credentials to login!");
+                return false;
+            }
+            else if(x==""||x==null)
+            {
+                alert("You must enter your username to login!");
+                return false;
+            }
+            else if(y==""||y==null)
+            {
+                alert("You must enter your password to login!");
+                return false;
+            }
+            
+       }
+   </script>
 </body>
 </html>
